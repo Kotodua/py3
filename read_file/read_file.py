@@ -6,24 +6,8 @@
 
 from libs.fileMod import FileMod 
 
+file1 = FileMod("C:/python_scripts/py3_/read_file/sum.txt")
 
-#fname = "C:/python_scripts/read_file/sum.txt"
-summa = 0
+file1.count()
+file1.count_specific_char("m")
 
-#with open(fname) as f:
-#    content = f.readlines()
-
-#for i in content:
-#	for j in i.split(' '):
-#		try: 
-#			j = int(j)
-#			summa = summa + j			
-#		except TypeError:
-#			print('Type issue')
-#		except ValueError:
-#			print('Value issue')
-		
-
-#print(summa)	
-
-FileMod.test(summa)	
